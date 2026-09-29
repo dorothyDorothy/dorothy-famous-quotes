@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisdom100 &bull; Random Quotes & Search</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <div class="logo-icon">&#10077;&#10078;</div>
+        <div>
+          <h1 class="logo-title">Wisdom100</h1>
+          <p class="logo-subtitle">100 curated quotes from history's greatest thinkers</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="btn-icon" aria-label="Toggle theme" title="Toggle Light/Dark Theme">
+          <span class="theme-icon light-icon">&#9788;</span>
+          <span class="theme-icon dark-icon">&#9790;</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-layout">
+      <!-- Hero Featured Quote Section -->
+      <section class="hero-section" aria-label="Featured Random Quote">
+        <div class="quote-card" id="heroQuoteCard">
+          <div class="quote-decoration">&#10077;</div>
+          
+          <div class="quote-category-badge-wrap">
+            <span class="badge" id="heroCategory">Philosophy</span>
+            <span class="quote-id-badge" id="heroIdBadge">#1 of 100</span>
+          </div>
+
+          <blockquote class="quote-content" id="heroQuoteText">
+            "Loading wisdom..."
+          </blockquote>
+
+          <div class="quote-author-wrap">
+            <div class="author-dash"></div>
+            <div class="author-meta">
+              <cite class="author-name" id="heroAuthor">Author</cite>
+              <span class="author-year" id="heroYear">Year</span>
+            </div>
+          </div>
+
+          <div class="quote-actions">
+            <button id="newQuoteBtn" class="btn btn-primary" title="Get another random quote">
+              <span class="btn-icon-symbol">&#8635;</span>
+              <span>New Random Quote</span>
+            </button>
+            <button id="copyQuoteBtn" class="btn btn-secondary" title="Copy quote to clipboard">
+              <span class="btn-icon-symbol">&#10697;</span>
+              <span>Copy</span>
+            </button>
+            <button id="shareQuoteBtn" class="btn btn-secondary" title="Share quote">
+              <span class="btn-icon-symbol">&#10148;</span>
+              <span>Share</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Discovery & Search Section -->
+      <section class="discovery-section">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Explore & Search</h2>
+            <p class="section-desc">Search by author, phrase, or filter by category.</p>
+          </div>
+          <div class="results-badge" id="resultsCountBadge">100 quotes available</div>
+        </div>
+
+        <!-- Search Controls -->
+        <div class="search-bar-wrap">
+          <div class="search-input-container">
+            <span class="search-icon">&#128269;</span>
+            <input 
+              type="text" 
+              id="searchInput" 
+              class="search-input" 
+              placeholder="Search author (e.g. Einstein, Jobs, Lao Tzu) or quote text..." 
+              autocomplete="off"
+            />
+            <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search" title="Clear input">&times;</button>
+          </div>
+
+          <div class="quick-stats">
+            <span id="activeFilterNotice" class="filter-notice"></span>
+          </div>
+        </div>
+
+        <!-- Category Pills -->
+        <div class="category-pills-scroll" role="tablist" aria-label="Quote categories">
+          <button class="pill active" data-category="all" role="tab" aria-selected="true">
+            All <span class="pill-count">100</span>
+          </button>
+          <!-- Dynamic Category Pills Loaded via API -->
+          <div id="categoryPillsContainer" class="pills-flex"></div>
+        </div>
+
+        <!-- Quotes Grid / List -->
+        <div class="quotes-grid-container">
+          <div id="quotesGrid" class="quotes-grid">
+            <!-- Dynamic Quote Cards -->
+          </div>
+
+          <!-- Empty State -->
+          <div id="emptyState" class="empty-state hidden">
+            <div class="empty-icon">&#128270;</div>
+            <h3 class="empty-title">No quotes found</h3>
+            <p class="empty-desc">Try clearing your filters or searching for another author or keyword.</p>
+            <button id="resetFiltersBtn" class="btn btn-secondary btn-sm">Reset All Filters</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Wisdom100 &bull; Built with Python Flask & Vanilla JavaScript</p>
+      <p class="footer-sub">Explore the eternal minds of science, philosophy, literature, and leadership.</p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

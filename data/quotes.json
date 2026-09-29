@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Technology",
+    "year": "2005"
+  },
+  {
+    "id": 2,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "category": "Life",
+    "year": "1980"
+  },
+  {
+    "id": 3,
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "Philosophy",
+    "year": "399 BC"
+  },
+  {
+    "id": 4,
+    "quote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world.",
+    "author": "Albert Einstein",
+    "category": "Science",
+    "year": "1929"
+  },
+  {
+    "id": 5,
+    "quote": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "category": "Leadership",
+    "year": "2001"
+  },
+  {
+    "id": 6,
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison",
+    "category": "Inspiration",
+    "year": "1910"
+  },
+  {
+    "id": 7,
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Wisdom",
+    "year": "1841"
+  },
+  {
+    "id": 8,
+    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein",
+    "category": "Humor",
+    "year": "1940"
+  },
+  {
+    "id": 9,
+    "quote": "Every artist was first an amateur.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Art",
+    "year": "1844"
+  },
+  {
+    "id": 10,
+    "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy",
+    "year": "180 AD"
+  },
+  {
+    "id": 11,
+    "quote": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "Alan Turing",
+    "category": "Technology",
+    "year": "1950"
+  },
+  {
+    "id": 12,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "Science",
+    "year": "1910"
+  },
+  {
+    "id": 13,
+    "quote": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "Inspiration",
+    "year": "1930"
+  },
+  {
+    "id": 14,
+    "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "category": "Leadership",
+    "year": "1963"
+  },
+  {
+    "id": 15,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "Wisdom",
+    "year": "1913"
+  },
+  {
+    "id": 16,
+    "quote": "Not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "category": "Literature",
+    "year": "1954"
+  },
+  {
+    "id": 17,
+    "quote": "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+    "author": "J.K. Rowling",
+    "category": "Literature",
+    "year": "2000"
+  },
+  {
+    "id": 18,
+    "quote": "I can resist everything except temptation.",
+    "author": "Oscar Wilde",
+    "category": "Humor",
+    "year": "1892"
+  },
+  {
+    "id": 19,
+    "quote": "Creativity is intelligence having fun.",
+    "author": "Albert Einstein",
+    "category": "Art",
+    "year": "1935"
+  },
+  {
+    "id": 20,
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy",
+    "year": "1889"
+  },
+  {
+    "id": 21,
+    "quote": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    "author": "Stephen Hawking",
+    "category": "Science",
+    "year": "2001"
+  },
+  {
+    "id": 22,
+    "quote": "That brain of mine is something more than merely mortal; as time will show.",
+    "author": "Ada Lovelace",
+    "category": "Technology",
+    "year": "1843"
+  },
+  {
+    "id": 23,
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "Leadership",
+    "year": "1941"
+  },
+  {
+    "id": 24,
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Inspiration",
+    "year": "1845"
+  },
+  {
+    "id": 25,
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "category": "Wisdom",
+    "year": "399 BC"
+  },
+  {
+    "id": 26,
+    "quote": "I have learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "category": "Life",
+    "year": "1989"
+  },
+  {
+    "id": 27,
+    "quote": "There is no greater agony than bearing an untold story inside you.",
+    "author": "Maya Angelou",
+    "category": "Literature",
+    "year": "1969"
+  },
+  {
+    "id": 28,
+    "quote": "A day without laughter is a day wasted.",
+    "author": "Charlie Chaplin",
+    "category": "Humor",
+    "year": "1936"
+  },
+  {
+    "id": 29,
+    "quote": "Art washes away from the soul the dust of everyday life.",
+    "author": "Pablo Picasso",
+    "category": "Art",
+    "year": "1964"
+  },
+  {
+    "id": 30,
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "category": "Philosophy",
+    "year": "350 BC"
+  },
+  {
+    "id": 31,
+    "quote": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
+    "author": "Edwin Hubble",
+    "category": "Science",
+    "year": "1948"
+  },
+  {
+    "id": 32,
+    "quote": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "category": "Technology",
+    "year": "2000"
+  },
+  {
+    "id": 33,
+    "quote": "The supreme art of war is to subdue the enemy without fighting.",
+    "author": "Sun Tzu",
+    "category": "Leadership",
+    "year": "500 BC"
+  },
+  {
+    "id": 34,
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "Inspiration",
+    "year": "1903"
+  },
+  {
+    "id": 35,
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "category": "Life",
+    "year": "1954"
+  },
+  {
+    "id": 36,
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "category": "Wisdom",
+    "year": "340 BC"
+  },
+  {
+    "id": 37,
+    "quote": "So many books, so little time.",
+    "author": "Frank Zappa",
+    "category": "Literature",
+    "year": "1980"
+  },
+  {
+    "id": 38,
+    "quote": "Better to remain silent and be thought a fool than to speak and to remove all doubt.",
+    "author": "Mark Twain",
+    "category": "Humor",
+    "year": "1907"
+  },
+  {
+    "id": 39,
+    "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+    "author": "Pablo Picasso",
+    "category": "Art",
+    "year": "1973"
+  },
+  {
+    "id": 40,
+    "quote": "I think, therefore I am.",
+    "author": "René Descartes",
+    "category": "Philosophy",
+    "year": "1637"
+  },
+  {
+    "id": 41,
+    "quote": "Somewhere, something incredible is waiting to be known.",
+    "author": "Carl Sagan",
+    "category": "Science",
+    "year": "1977"
+  },
+  {
+    "id": 42,
+    "quote": "The most dangerous phrase in the language is: We've always done it this way.",
+    "author": "Grace Hopper",
+    "category": "Technology",
+    "year": "1976"
+  },
+  {
+    "id": 43,
+    "quote": "A leader is a dealer in hope.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership",
+    "year": "1804"
+  },
+  {
+    "id": 44,
+    "quote": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "category": "Inspiration",
+    "year": "1983"
+  },
+  {
+    "id": 45,
+    "quote": "The privilege of a lifetime is to become who you truly are.",
+    "author": "Carl Jung",
+    "category": "Life",
+    "year": "1933"
+  },
+  {
+    "id": 46,
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "category": "Wisdom",
+    "year": "500 BC"
+  },
+  {
+    "id": 47,
+    "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "author": "J.K. Rowling",
+    "category": "Literature",
+    "year": "1998"
+  },
+  {
+    "id": 48,
+    "quote": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Anonymous",
+    "category": "Humor",
+    "year": "2000"
+  },
+  {
+    "id": 49,
+    "quote": "If you hear a voice within you say 'you cannot paint', then by all means paint, and that voice will be silenced.",
+    "author": "Vincent van Gogh",
+    "category": "Art",
+    "year": "1888"
+  },
+  {
+    "id": 50,
+    "quote": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "Philosophy",
+    "year": "330 BC"
+  },
+  {
+    "id": 51,
+    "quote": "If I have seen further it is by standing on the shoulders of Giants.",
+    "author": "Isaac Newton",
+    "category": "Science",
+    "year": "1675"
+  },
+  {
+    "id": 52,
+    "quote": "Software is eating the world.",
+    "author": "Marc Andreessen",
+    "category": "Technology",
+    "year": "2011"
+  },
+  {
+    "id": 53,
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "category": "Leadership",
+    "year": "1901"
+  },
+  {
+    "id": 54,
+    "quote": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford",
+    "category": "Inspiration",
+    "year": "1947"
+  },
+  {
+    "id": 55,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "Life",
+    "year": "500 BC"
+  },
+  {
+    "id": 56,
+    "quote": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": "Wisdom",
+    "year": "1994"
+  },
+  {
+    "id": 57,
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "category": "Literature",
+    "year": "1891"
+  },
+  {
+    "id": 58,
+    "quote": "I used to think I was indecisive, but now I'm not so sure.",
+    "author": "Tommy Cooper",
+    "category": "Humor",
+    "year": "1975"
+  },
+  {
+    "id": 59,
+    "quote": "Art is not what you see, but what you make others see.",
+    "author": "Edgar Degas",
+    "category": "Art",
+    "year": "1890"
+  },
+  {
+    "id": 60,
+    "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy",
+    "year": "1943"
+  },
+  {
+    "id": 61,
+    "quote": "The first principle is that you must not fool yourself and you are the easiest person to fool.",
+    "author": "Richard Feynman",
+    "category": "Science",
+    "year": "1974"
+  },
+  {
+    "id": 62,
+    "quote": "Information is the resolution of uncertainty.",
+    "author": "Claude Shannon",
+    "category": "Technology",
+    "year": "1948"
+  },
+  {
+    "id": 63,
+    "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+    "author": "John Quincy Adams",
+    "category": "Leadership",
+    "year": "1820"
+  },
+  {
+    "id": 64,
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "category": "Inspiration",
+    "year": "1885"
+  },
+  {
+    "id": 65,
+    "quote": "Good judgment comes from experience, and a lot of that comes from bad judgment.",
+    "author": "Will Rogers",
+    "category": "Wisdom",
+    "year": "1930"
+  },
+  {
+    "id": 66,
+    "quote": "May you live every day of your life.",
+    "author": "Jonathan Swift",
+    "category": "Life",
+    "year": "1738"
+  },
+  {
+    "id": 67,
+    "quote": "All that is gold does not glitter, not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "category": "Literature",
+    "year": "1954"
+  },
+  {
+    "id": 68,
+    "quote": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+    "author": "Oscar Wilde",
+    "category": "Humor",
+    "year": "1888"
+  },
+  {
+    "id": 69,
+    "quote": "Have no fear of perfection - you'll never reach it.",
+    "author": "Salvador Dalí",
+    "category": "Art",
+    "year": "1958"
+  },
+  {
+    "id": 70,
+    "quote": "We do not describe the world we see, we see the world we describe.",
+    "author": "Ludwig Wittgenstein",
+    "category": "Philosophy",
+    "year": "1921"
+  },
+  {
+    "id": 71,
+    "quote": "Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist.",
+    "author": "Stephen Hawking",
+    "category": "Science",
+    "year": "2012"
+  },
+  {
+    "id": 72,
+    "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "category": "Technology",
+    "year": "1962"
+  },
+  {
+    "id": 73,
+    "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+    "author": "Ronald Reagan",
+    "category": "Leadership",
+    "year": "1981"
+  },
+  {
+    "id": 74,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "category": "Inspiration",
+    "year": "2005"
+  },
+  {
+    "id": 75,
+    "quote": "Count your age by friends, not years. Count your life by smiles, not tears.",
+    "author": "John Lennon",
+    "category": "Life",
+    "year": "1971"
+  },
+  {
+    "id": 76,
+    "quote": "Silence is a source of great strength.",
+    "author": "Lao Tzu",
+    "category": "Wisdom",
+    "year": "500 BC"
+  },
+  {
+    "id": 77,
+    "quote": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic.",
+    "author": "J.K. Rowling",
+    "category": "Literature",
+    "year": "2007"
+  },
+  {
+    "id": 78,
+    "quote": "I refuse to join any club that would have me as a member.",
+    "author": "Groucho Marx",
+    "category": "Humor",
+    "year": "1949"
+  },
+  {
+    "id": 79,
+    "quote": "Painting is just another way of keeping a diary.",
+    "author": "Pablo Picasso",
+    "category": "Art",
+    "year": "1932"
+  },
+  {
+    "id": 80,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "category": "Philosophy",
+    "year": "1998"
+  },
+  {
+    "id": 81,
+    "quote": "Nature does not hurry, yet everything is accomplished.",
+    "author": "Lao Tzu",
+    "category": "Science",
+    "year": "500 BC"
+  },
+  {
+    "id": 82,
+    "quote": "Simplicity is prerequisite for reliability.",
+    "author": "Edsger W. Dijkstra",
+    "category": "Technology",
+    "year": "1970"
+  },
+  {
+    "id": 83,
+    "quote": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+    "author": "Winston Churchill",
+    "category": "Leadership",
+    "year": "1943"
+  },
+  {
+    "id": 84,
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "Inspiration",
+    "year": "1890"
+  },
+  {
+    "id": 85,
+    "quote": "Live in the sunshine, swim the sea, drink the wild air.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Life",
+    "year": "1867"
+  },
+  {
+    "id": 86,
+    "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "author": "Aristotle",
+    "category": "Wisdom",
+    "year": "350 BC"
+  },
+  {
+    "id": 87,
+    "quote": "There is no friend as loyal as a book.",
+    "author": "Ernest Hemingway",
+    "category": "Literature",
+    "year": "1958"
+  },
+  {
+    "id": 88,
+    "quote": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey",
+    "category": "Humor",
+    "year": "1994"
+  },
+  {
+    "id": 89,
+    "quote": "Color is my day-long obsession, joy and torment.",
+    "author": "Claude Monet",
+    "category": "Art",
+    "year": "1905"
+  },
+  {
+    "id": 90,
+    "quote": "Waste no more time arguing what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy",
+    "year": "170 AD"
+  },
+  {
+    "id": 91,
+    "quote": "The good thing about science is that it's true whether or not you believe in it.",
+    "author": "Neil deGrasse Tyson",
+    "category": "Science",
+    "year": "2011"
+  },
+  {
+    "id": 92,
+    "quote": "Computers are incredibly fast, accurate, and stupid. Human beings are incredibly slow, inaccurate, and brilliant. Together they are powerful beyond imagination.",
+    "author": "Albert Einstein",
+    "category": "Technology",
+    "year": "1946"
+  },
+  {
+    "id": 93,
+    "quote": "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
+    "author": "Mother Teresa",
+    "category": "Leadership",
+    "year": "1979"
+  },
+  {
+    "id": 94,
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Inspiration",
+    "year": "1841"
+  },
+  {
+    "id": 95,
+    "quote": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Abraham Lincoln",
+    "category": "Life",
+    "year": "1863"
+  },
+  {
+    "id": 96,
+    "quote": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+    "author": "William Shakespeare",
+    "category": "Wisdom",
+    "year": "1600"
+  },
+  {
+    "id": 97,
+    "quote": "There is no exquisite beauty... without some strangeness in the proportion.",
+    "author": "Edgar Allan Poe",
+    "category": "Literature",
+    "year": "1838"
+  },
+  {
+    "id": 98,
+    "quote": "I am free of all prejudice. I hate everyone equally.",
+    "author": "W.C. Fields",
+    "category": "Humor",
+    "year": "1939"
+  },
+  {
+    "id": 99,
+    "quote": "The artist sees what others only catch a glimpse of.",
+    "author": "Leonardo da Vinci",
+    "category": "Art",
+    "year": "1500"
+  },
+  {
+    "id": 100,
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "category": "Inspiration",
+    "year": "2005"
+  }
+]
